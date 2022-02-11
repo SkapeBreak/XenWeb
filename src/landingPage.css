@@ -1,0 +1,101 @@
+.intro {
+    background-image: url("testbg2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 0;
+    height: 80vh;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    color: rgb(206, 51, 51);
+    font-size: 20px;
+
+}
+
+.intro-area{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left: 30%;
+    right: 30%;
+    width: 100%;
+    height: 30%;
+    justify-content: space-between;
+}
+
+/* .intro-text{
+    display: flex;
+
+} */
+
+.intro-image{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+.covid-section{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+
+
+.app-promo{
+    display: flex;
+    background-color: aqua;
+}
+
+
+.therapist{
+    display: flex;
+    background-color: orangered;
+}
+
+.pricing{
+    display: flex;
+    background-color: rgb(48, 231, 146);
+}
+.services{
+    display: flex;
+    background-color: rgb(64, 99, 82);
+}
+.howto{
+    display: flex;
+    background-color: rgb(105, 116, 110);
+}
