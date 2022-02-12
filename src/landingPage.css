@@ -1,7 +1,8 @@
 .intro {
-    background-image: url("testbg2.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    /* background-image: url("testbg2.jpg");
+    background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    background-color: aqua;
     border: 0;
     height: 80vh;
 }
@@ -45,9 +46,10 @@ li {
     bottom: 30%;
     left: 30%;
     right: 30%;
-    width: 100%;
+    width: 500px;
     height: 30%;
     justify-content: space-between;
+    background-color: blue;
 }
 
 /* .intro-text{
@@ -90,11 +92,54 @@ a{
 .pricing{
     display: flex;
     background-color: rgb(48, 231, 146);
+    height: 70vh;
 }
+
 .services{
     display: flex;
     background-color: rgb(64, 99, 82);
+    height: 80vh;
+    flex-direction: column;
 }
+
+.services-description {
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
 .howto{
     display: flex;
     background-color: rgb(105, 116, 110);
