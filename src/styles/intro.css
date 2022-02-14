@@ -1,0 +1,48 @@
+.intro {
+    /* background-image: url("testbg3.jpg");
+    background-repeat: no-repeat; */
+    /* background-size: 50% 50%; */
+    background-color: rgba(245, 241, 239, 0.527);
+    border: 0;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.intro-area{
+    display: flex;
+
+    width: 800px;
+    height: 500px;
+
+    /* position: absolute;
+    top: 20%;
+    left: 40%; */
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background-color: rgba(252, 252, 252, 0.493);
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+
+.intro-area:hover {
+    
+    background-color: #FFCCCC;
+    transform: scale(1.2);
+}
+
+/* .intro-text{
+    display: flex;
+
+} */
+
+.intro-image{
+    display: flex;
+}

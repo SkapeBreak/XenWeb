@@ -1,0 +1,55 @@
+.covid-section{
+    display: flex;
+    height: 60vh;
+    background-color: rgb(152, 193, 217);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.covidReady-container{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1.information-text{
+    display: flex;
+}
+
+.information-text{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.covid-ready{
+    top:0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 60%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .covid-section {
+        
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .covid-ready {
+        max-width: 1000px;
+    }
+
+    .covidReady-container {
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

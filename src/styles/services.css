@@ -1,0 +1,80 @@
+.services{
+    display: flex;
+    background-image: url("../media/testbg3.jpg");
+    
+    height: 65vh;
+    
+}
+
+.box{
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    background-color: rgba(195, 196, 183, 0.74);
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-description {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+    color: aliceblue;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    width: 90%;
+    
+    
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(238, 232, 225, 0.767);
+    height: 300px;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+}
+
+.service-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .service-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .services {
+        min-height: fit-content;
+        flex-wrap: wrap;
+    }
+}

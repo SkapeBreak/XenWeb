@@ -1,4 +1,4 @@
-import LandingPage from "./landingPage";
+import LandingPage from "./screens/landingPage";
 
 function App() {
   return <LandingPage />;

@@ -1,0 +1,53 @@
+.howto{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(224, 251, 252);
+    
+    
+    
+}
+
+
+.howto-text {
+    justify-content: center;
+    margin-bottom: 10%;
+    text-align: center;
+
+}
+
+.howto-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;   
+}
+
+.howto-line-block {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(221, 221, 221, 0.616);
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .howto-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .howto {
+        min-height: fit-content;
+        flex-wrap: wrap;
+    }
+}

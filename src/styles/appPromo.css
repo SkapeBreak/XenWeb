@@ -1,0 +1,57 @@
+.app-promo{
+    display: flex;
+    background-color: rgba(224, 251, 252);
+    justify-content: center;
+    height: 40vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apppromo-text {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.download-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: fit-content;
+}
+
+.download-img{
+    min-width: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.download-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
