@@ -7,39 +7,48 @@ export default function therapists() {
     <section className="therapist-section">
         <div className="therapist-title">
           <h1>Therapists</h1>
-          {/* <p>asdjahfasdlfghasdjknbgsadjkhgsdjhga</p> */}
+          <p>Meet our amazing Daughter - Mother team of Registered Massage Therapists.
+            with a combined 10 years experience,
+            this duo is sure to leave an impression with each treatment.
+          </p>
         </div>
         <div className="therapist-container">
-          <div className="therapist-card">
-            <div>
-              <div className="therapist">
+            <div className="therapist-card" id='tcard'>
+              
+                <h2>Ivonne</h2>
                 <img
                   class="covid-ready"
                   src={massageIcon}
                   alt="Zen's logo"
                 ></img>
-              </div>
+                <div class="bio">
+                  Bio
+                </div>
+                <p>
+                  Something about 
+                  me
+                </p>
+              
+            
             </div>
-          </div>
-          <div className="therapist-card">
-            <div>
-              <div className="therapist">
+            <div className="therapist-card">
+  
+              
+                <h2>Patricia</h2>
                 <img
                   class="covid-ready"
                   src={massageIcon}
                   alt="Zen's logo"
                 ></img>
-              </div>
+                <div class="bio">
+                  Bio
+                </div>
+                <p>
+                  Something about 
+                  me
+                </p>
+            
             </div>
-          </div>
-          <div className="therapist-card">
-            <div className="therapist">
-              <img 
-                class="covid-ready" 
-                src={massageIcon} 
-                alt="Zen's logo"></img>
-            </div>
-          </div>
         </div>
       </section>
   )

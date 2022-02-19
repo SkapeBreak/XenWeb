@@ -2,8 +2,9 @@
     /* width: 100%;
     height: 100%; */
     display: flex;
-    background-color: rgb(152, 193, 217);
-    height: 70vh;
+    /* background-color: rgb(152, 193, 217); */
+    background-color: #f9f9f9;
+    height: 45vh;
     justify-content: center;
     flex-direction: column;
     
@@ -11,23 +12,27 @@
 }
 
 .pricing-title {
-    width: 100%;
     display: flex;;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
+    margin-top: 5%;
+    font-size: 35px;
+    color: #73026b;
 }
 
 .pricing-card {
     display: flex;
     flex-direction: column;
-    min-height: fit-content;
-    min-width: fit-content;
+    height: 250px;
+    width: 200px;
     margin-left: 10%;
     margin-right: 10%;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 228, 196, 0.24);
+    flex-wrap: wrap;
+    border-radius: 5%;
+    text-align: center;
     
  }
 
@@ -37,17 +42,27 @@
      justify-content: center;
      justify-content: space-between;
      align-items: center;
+     margin-bottom: 5%;
  }
 
 .price {
     display: flex;
+    /* margin-bottom: 5%; */
+    font-size: 70px;
+    color: #060359;
+}
+
+.minutes {
+    font-size: 30px;
+    color: #2b0f2f;
 }
 
 .price-description {
     display: flex;
-    font-size: 50px;
+    font-size: 20px;
     justify-content: center;
     padding-top: 5%;
+    color: #2b0f2f;
 }
 
  .pricing-icon {

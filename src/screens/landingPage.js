@@ -21,7 +21,7 @@ export default function home() {
   }
 
   return (
-    <div class="landing">
+    <div>
       
      {/* Nav-Bar */}
 
@@ -37,31 +37,32 @@ export default function home() {
 
       {/* Intro section */}
       
-      <Intro />
-
-      {/* Covid Section */}
-
-      <Covid />
-
-      {/* App Promo Section */}
-
-      <AppPromo />
+      <Intro />      
 
       {/* Therapists Section */}
 
       <Therapists />
 
-      {/* Pricing Section */}
-
-      <PricingSection />
-
       {/* Services Section */}
 
       < Services />
 
+      {/* Pricing Section */}
+
+      <PricingSection />
+
+      {/* Covid Section */}
+
+      {/* <Covid /> */}      
+
       {/* How-to Section */}
 
       <HowTo />
+
+
+      {/* App Promo Section */}
+
+      {/* <AppPromo /> */}
 
       {/* Footer */}
 

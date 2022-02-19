@@ -1,20 +1,20 @@
 import React from 'react'
 import '../styles/intro.css'
-import test from '../logo.svg'
+import logo from '../media/ColorLogo-noBackground.svg'
 
 export default function introSection() {
   return (
-    <section class="intro">   
-        <div class="intro-area">
-          <div class="intro-text">
+    <section className="intro">   
+        <div className="intro-area">
+          <div className="intro-text">
             <h1>Zen Wellness</h1>
             <p>Health and Wellness at your door step</p>
-            <div class="button">
-              <a href="#about-me">Learn More</a>
-            </div>
             <div className="intro-image">
-              <img alt="test" src={test} />
+              <img alt="logo" src={logo} />
             </div>
+          <div class="button"><a href="#about-me">Learn More</a></div>
+              {/* <a href="#about-me">Learn More</a>
+            </div> */}
           </div>
         </div>
   </section>

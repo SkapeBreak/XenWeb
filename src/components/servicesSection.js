@@ -8,7 +8,7 @@ export default function servicesSection() {
         <div className='box'>
         <div class="services-description">
           <h1>Services</h1>
-          <p>hello</p>
+          <p>We provide a variety of services</p>
         </div>
         <div className="cards">
           <div className="service-card">

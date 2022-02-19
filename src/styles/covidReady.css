@@ -1,7 +1,10 @@
 .covid-section{
     display: flex;
     height: 60vh;
-    background-color: rgb(152, 193, 217);
+    /* background-color: rgb(152, 193, 217); */
+    /* background-color: #7b3d85; */
+    /* background-color: #9e52aa; */
+    background-color: #9e52aa;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -13,6 +16,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #c47dcf;
 }
 
 h1.information-text{

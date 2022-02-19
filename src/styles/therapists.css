@@ -1,39 +1,63 @@
 .therapist-section {
     display: flex;
-    /* background-image: url("../media/testbg4.jpg");
-    background-repeat: no-repeat; */
-    background-color: rgba(187, 182, 180, 0.527);
-    height: 65vh;
+    background-color: #c47dcf;
+    height: 75vh;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 
 }
+
 
 .therapist-title {
     display: flex;
-    /* justify-content: center; */
+    flex-direction: column;
+    /* justify-content: start; */
     align-items: center;
+    color: #f9f9f9;
+    margin-bottom: 5%;
+    width: 50%;
+    /* flex-wrap: wrap; */
+}
+
+.therapist-title p {
+    width: 50%;
+    text-align: center;
 }
 
 .therapist-container {
-    display: flex;
+     display: flex;
      flex-direction: row;
-     justify-content: center;
      justify-content: space-between;
+     width: 100%;
+     margin-bottom: 5%;
+     /* flex-wrap: wrap; */
 }
 
 .therapist-card {
     display: flex;
+    width: 250px;
+    height: 450px;
     flex-direction: column;
-    /* height: 300px; */
-    width: 90%;
-    /* justify-content: space-between;
-    align-items: center; */
+    align-items: center;
+    border-radius: 10%;
+    background-color: #d19cda;
+    border: 2px solid #71277d;
+    box-shadow: 5px 5px 5px #060359;
+    border-bottom: 5%;
+    
 
 }
 
-/* .therapist{
-    display: flex;
-    background-color: orangered;
-} */
+@media only screen and (max-width: 1000px) {
+    .therapist-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .therapist-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
