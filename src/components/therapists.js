@@ -5,6 +5,7 @@ import massageIcon from '../media/massageIconTest.png'
 export default function therapists() {
   return (
     <section className="therapist-section">
+        <div className='therapist-box'>
         <div className="therapist-title">
           <h1>Therapists</h1>
           <p>Meet our amazing Daughter - Mother team of Registered Massage Therapists.
@@ -49,6 +50,7 @@ export default function therapists() {
                 </p>
             
             </div>
+        </div>
         </div>
       </section>
   )

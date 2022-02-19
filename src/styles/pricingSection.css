@@ -79,6 +79,7 @@
     .pricing {
         max-width: 1000px;
         min-height: fit-content;
+        /* flex-wrap: wrap; */
         
     }
 }

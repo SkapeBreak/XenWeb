@@ -12,10 +12,15 @@ export default function introSection() {
             <div className="intro-image">
               <img alt="logo" src={logo} />
             </div>
+          
+          <div className='buttons'>
           <div class="button"><a href="#about-me">Learn More</a></div>
+          <div class="button"><a href="#about-me">Learn More</a></div>
+          </div> 
               {/* <a href="#about-me">Learn More</a>
             </div> */}
           </div>
+          
         </div>
   </section>
   )

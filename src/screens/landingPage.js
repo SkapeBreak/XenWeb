@@ -65,12 +65,13 @@ export default function home() {
       {/* <AppPromo /> */}
 
       {/* Footer */}
-
+    {/* <div className="footer"> */}
       <footer id="contact-me">
         <h2>Contact Us</h2>
         <p>Ivonne@zentechnologies.info</p>
         <p>825-994-4786</p>
       </footer>
+      {/* </div> */}
     </div>
   );
 }

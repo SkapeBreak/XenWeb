@@ -1,12 +1,24 @@
 .therapist-section {
     display: flex;
     background-color: #c47dcf;
-    height: 75vh;
+    height: 85vh;
     justify-content: center;
     flex-direction: column;
+    /* flex-wrap: wrap; */
     align-items: center;
-    flex-wrap: wrap;
 
+}
+
+.therapist-box{
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    /* background-color: rgba(195, 196, 183, 0.74); */
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -17,20 +29,22 @@
     align-items: center;
     color: #f9f9f9;
     margin-bottom: 5%;
-    width: 50%;
-    /* flex-wrap: wrap; */
+    width: 100%;
+    flex-wrap: wrap;
+    /* background-color: #060359; */
 }
 
 .therapist-title p {
-    width: 50%;
+    width: 20%;
     text-align: center;
 }
 
 .therapist-container {
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
-     width: 100%;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 90%;
      margin-bottom: 5%;
      /* flex-wrap: wrap; */
 }
@@ -50,14 +64,36 @@
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 750px) {
     .therapist-section {
+        display: flex;
+        flex-wrap: wrap;
+        
+        /* flex-direction: column; */
+    }
+
+    /* .therapist-title {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: fit-content;
+    }
+
+    .therapist-container {
+
         display: flex;
         flex-wrap: wrap;
     }
 
-    .therapist-container {
+    .therapist-card {
         display: flex;
         flex-wrap: wrap;
+        max-height: fit-content;
     }
+
+    .therapist-box {
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+
 }
