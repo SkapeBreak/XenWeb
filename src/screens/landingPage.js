@@ -8,6 +8,7 @@ import Intro from '../components/introSection'
 import Services from '../components/servicesSection'
 import PricingSection from '../components/pricingSection'
 import HowTo from '../components/howTo'
+import ContactForm from '../components/contactUs'
 
 export default function home() {
 
@@ -68,8 +69,9 @@ export default function home() {
     {/* <div className="footer"> */}
       <footer id="contact-me">
         <h2>Contact Us</h2>
-        <p>Ivonne@zentechnologies.info</p>
+        {/* <p>Ivonne@zentechnologies.info</p> */}
         <p>825-994-4786</p>
+        <ContactForm />
       </footer>
       {/* </div> */}
     </div>
